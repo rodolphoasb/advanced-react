@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="#" />
         <link rel="shortcut icon" href="#" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
